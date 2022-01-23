@@ -4,5 +4,6 @@
      section RNF-->
 <resources>
     <string name="app_name">Muhammad Saad n01366618</string>
-    <string name="tv_label">Hello World</string>
+    <string name="tv_label">Welcome Muhammad Saad N01366618</string>
+    <string name="btn_main">Button</string>
 </resources>
