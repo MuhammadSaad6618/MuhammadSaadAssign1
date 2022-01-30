@@ -6,4 +6,10 @@
     <string name="app_name">Muhammad Saad n01366618</string>
     <string name="tv_label">Welcome Muhammad Saad N01366618</string>
     <string name="btn_main">Button</string>
+    <string name="editTextLabel">Type some text</string>
+    <string name="Et">Name</string>
+    <string name="btn2">Button2</string>
+    <string name="url">https://www.wwe.com/</string>
+    <string name="SbarContent">Muhammad Saad, 2nd activity launching</string>
+    <string name="LogdText">In the onStop() event meaning in background</string>
 </resources>
