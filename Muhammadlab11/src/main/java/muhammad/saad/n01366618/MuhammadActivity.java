@@ -18,6 +18,8 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.material.snackbar.Snackbar;
@@ -25,6 +27,7 @@ import com.google.android.material.snackbar.Snackbar;
 
 public class MuhammadActivity extends AppCompatActivity {
 
+    public static final String extxt = "muhammad";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,16 +48,22 @@ public class MuhammadActivity extends AppCompatActivity {
     }
 
     public void mySnack(View view) {
-        Snackbar.make(findViewById(R.id.MuhammadLayout),
-                R.string.SbarContent,
-                Snackbar.LENGTH_LONG).show();
-        /*The snack message disappears as soon as 2nd activity  launches, It does work appear for a split
-        second, I tested it.   */
+        View myLayout = findViewById(R.id.MuhammadLayout);
+
+        Snackbar.make(myLayout,"Muhammad Saad N01366618",Snackbar.LENGTH_LONG).show();
+
+
+        /*The snack message disappears as soon as 2nd activity  launches, It still shows
+        * if you press back right away just in time before it expires    */
         launchActivity();
+
     }
 
     public void launchActivity() {
+        EditText ab = (EditText) findViewById(R.id.MuhammadET);
+        String txt = ab.getText().toString();
         Intent act = new Intent(this, SaadActivity.class);
+        act.putExtra(extxt,txt);
         startActivity(act);
 
     }
