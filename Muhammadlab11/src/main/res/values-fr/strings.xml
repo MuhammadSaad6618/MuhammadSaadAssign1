@@ -1,0 +1,17 @@
+<!-- Muhammad Saad
+     n01366618
+     Assignment 1
+     section RNF-->
+<resources>
+    <string name="app_name">Muhammad Saad n01366618</string>
+    <string name="tv_label">Bienvenue Muhammad Saad N01366618</string>
+    <string name="btn_main">Site Internet</string>
+    <string name="editTextLabel">Ttaper du texte</string>
+    <string name="Et">Nom</string>
+    <string name="btn2">deuxième activité</string>
+    <string name="url">https://www.wwe.com/</string>
+    <string name="SbarContent">Muhammad Saad, lancement dactivité</string>
+    <string name="LogdText">Dans levénement onStop() signifiant en arriere-plan</string>
+    <string name="myTxt2nScreen">Mon deuxième écran N01366618</string>
+    <string name="textview">Affichage</string>
+</resources>
